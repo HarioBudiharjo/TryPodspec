@@ -7,3 +7,21 @@
 //
 
 import Foundation
+
+public class Kalkulator {
+    public static func tambah<T:FloatingPoint>(_ a:T,_ b:T)->T {
+        return a+b
+    }
+    
+    public static func kurang<T:FloatingPoint>(_ a:T,_ b:T)->T {
+        return a-b
+    }
+    
+    public static func bagi<T:FloatingPoint>(_ a:T,_ b:T)->T {
+        return a/b
+    }
+    
+    public static func kali<T:FloatingPoint>(_ a:T,_ b:T)->T {
+        return a*b
+    }
+}
